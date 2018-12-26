@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+padding: 0%;
+margin: 0%;
+}
+ 
+.container ul{
+	margin-top: 20px;
+}
+
+.container a{
+padding: 8px 80px;
+color: red;
+font-family: 'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
+}
+
+.innerContent{
+	margin: 5% 1%;
+	border: 1px, solid;
+	border-color: aqua;
+	border-radius: 3px;
+	padding: 100px 0px;
+}
+
+.innerContent i{
+		font-size: 75px;
+	}
+
+.container ul{
+	position: relative;
+}
+
+.container .nav-link{
+		position: relative;
+		z-index: 99999;
+	}
+
+.pane1{
+	content: "";
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	border-radius: 3px;
+	cursor: pointer;
+	z-index: 0;
+}
+
+.active{
+	color: blue !important;
+}
+
